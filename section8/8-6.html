@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .scrollbox1 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            float: left;
+            box-sizing: border-box;
+            margin: 10px;
+            overflow: scroll;
+        }
+
+        .scrollbox2 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            float: left;
+            box-sizing: border-box;
+            margin: 10px;
+            margin-left: 30px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+
+        .scrollbox3 {
+            width: 200px;
+            overflow: hidden;
+            border: 2px solid black;
+            float: left;
+            box-sizing: border-box;
+            margin: 10px;
+            margin-left: 30px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+   <div class="scrollbox1">
+   <h4>SCROLL-X,Y</h4>
+   <p><img src="img/download.jpg"></p>
+   </div>
+
+   <div class="scrollbox2">
+   <h4>SCROLL-X</h4>
+   <p><img src="img/01-4.jpg"></p>
+   </div>
+   
+   <div class="scrollbox3">
+   <h4>SCROLL-Y</h4>
+   <p><img src="img/01-4.jpg"></p>
+</div>
+</body>
+</html>
