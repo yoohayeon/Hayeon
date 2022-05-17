@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        .nav {
+            width: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .nav li {
+            font-size: 14px;
+            background-color: #000000;
+            text-align: center;
+            font-weight: 900;
+            font-family: tahoma;
+            border-bottom: 1px solid #808080;
+            line-height: 40px;
+            box-sizing: border-box;
+            color: white;
+            cursor: pointer;
+        }
+        .submenu li {
+            font-size: 12px;
+            background-color: #999999;
+            line-height: 40px;
+            border-bottom: 1px solid #777777;
+            box-sizing: border-box;
+        }
+        .submenu li a {
+            color: black;
+        }
+        .submenu {
+            height: 0;
+            overflow: hidden;
+            transition-duration: 0.5s;
+        }
+        .nav li:hover .submenu {
+            height: 160px;
+        }
+        .nav li:hover {
+            color: red;
+        }
+        .submenu li:hover {
+            background-color: burlywood;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>MENU-1
+            <ul class="submenu">
+                <li><a href='#'</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
